@@ -1,5 +1,5 @@
-span{
-    color: rgb(224, 41, 41);
+.orange-color{
+    color: orange;
 }
 body{
     font-family: 'Inconsolata', monospace;
@@ -15,16 +15,34 @@ body{
 }
 .display{
     display: flex;
+    margin: 1%;
     
     
 }
 .section1width{
     width: 50%;
-    padding: 3%;
+    
 }
 .section1width img{
     width: 80%;
     padding-left: 15%;
+}
+
+.section3width{
+
+    
+    
+    border: 1px solid;
+    box-shadow: 5px 10px;
+    border-image-slice: 1;
+    
+    
+    
+    
+}
+.bby{
+    padding-top: 10%;
+    padding-left: 5%;
 }
 .background{
     background-image: url(images/top-banner.png);
@@ -43,6 +61,10 @@ body{
     background-repeat: no-repeat;
     background-position: right;
 }
+.background3{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
 
 
 
@@ -56,4 +78,6 @@ body{
     cursor: pointer;
     font-size: 20px;
   }
-  
+  .section3ex{
+      padding-left: 50%;
+  }
