@@ -1,0 +1,39 @@
+span{
+    color: rgb(224, 41, 41);
+}
+body{
+    font-family: 'Inconsolata', monospace;
+    text-align: justify;
+}
+.section1_h3font{
+    font-family: 'Times New Roman', Times, serif;
+}
+.section_pfont{
+    font-weight: 400;
+    font-style: italic;
+    font-size: larger;
+}
+.display{
+    display: flex;
+    
+    
+}
+.section1width{
+    width: 50%;
+    padding: 3%;
+}
+.section1width img{
+    width: 80%;
+    padding-left: 15%;
+}
+.background{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.hiremebutton{
+    text-decoration: none;
+    color: rgb(241, 240, 240);
+    background-color: darkgoldenrod;
+    padding: 14px 25px;
+    border-radius: 50%;
+}
