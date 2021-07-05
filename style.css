@@ -37,3 +37,8 @@ body{
     padding: 14px 25px;
     border-radius: 50%;
 }
+.background2{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
